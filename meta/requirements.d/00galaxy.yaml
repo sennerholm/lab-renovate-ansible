@@ -1,6 +1,6 @@
 ---
 - src: weareinteractive.users
-  version: 1.17.0
+  version: 1.15.0
 - src: https://github.com/DataDog/ansible-datadog/
   name: datadog.datadog
-  version: 4.11.0  
+  version: 4.0.0  
