@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Sample ansible galaxy role created to test out how Renovate can be used to update external dependencies. 
 
 Requirements
 ------------
