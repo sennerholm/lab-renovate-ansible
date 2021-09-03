@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "ansible-galaxy": {
+    "enabled": true
+  },
+  // Foo
+  "packageRules": [
+    {
+      "matchDatasources": ["galaxy"],
+      "allowedVersions": "<3.3",
+      "matchPackageNames": [
+        "haxorof.docker_ce"
+      ]
+    }
+  ]
+}
