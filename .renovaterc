@@ -4,6 +4,7 @@
     "enabled": true
   },
   "packageRules": [
+    // Trying to add comment
     {
       "matchDatasources": ["galaxy"],
       "allowedVersions": "<3.3",
