@@ -3,12 +3,14 @@
   "ansible-galaxy": {
     "enabled": true
   },
-  {
-    "_comment": "Pin ansible galaxy haxorof.docker_ce to version supported on centos7",
-    "matchDatasources": ["galaxy"],
-    "allowedVersions": "<3.3",
-    "matchPackageNames": [
-      "haxorof.docker_ce"
-    ]
-  }
+  "packageRules": [
+    {
+      "_comment": "Pin ansible galaxy haxorof.docker_ce to version supported on centos7",
+      "matchDatasources": ["galaxy"],
+      "allowedVersions": "<3.3",
+      "matchPackageNames": [
+        "haxorof.docker_ce"
+      ]
+    }
+  ]
 }
