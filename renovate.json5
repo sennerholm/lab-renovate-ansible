@@ -5,7 +5,7 @@
   },
   "packageRules": [
     {
-      // Foo
+      // Keep ansible haxorof.docker_ce galaxy to a version supporting centos7
       "matchDatasources": ["galaxy"],
       "allowedVersions": "<3.3",
       "matchPackageNames": [
