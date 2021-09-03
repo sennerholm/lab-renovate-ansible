@@ -3,9 +3,9 @@
   "ansible-galaxy": {
     "enabled": true
   },
-  // Foo
   "packageRules": [
     {
+      // Foo
       "matchDatasources": ["galaxy"],
       "allowedVersions": "<3.3",
       "matchPackageNames": [
