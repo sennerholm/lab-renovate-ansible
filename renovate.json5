@@ -1,7 +1,12 @@
 {
   "enabled": true,
   "ansible-galaxy": {
-    "enabled": true
+    "enabled": true,
+    // Add support for 00galaxy.yaml file
+    "fileMatch": [
+      "00galaxy.yaml"
+    ]
+
   },
   "packageRules": [
     {
