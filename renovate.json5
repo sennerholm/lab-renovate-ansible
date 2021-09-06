@@ -4,7 +4,7 @@
     "enabled": true,
     // Add support for 00galaxy.yaml file
     "fileMatch": [
-      "00galaxy.yaml"
+      "^.*/00galaxy.yaml$"
     ]
 
   },
