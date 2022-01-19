@@ -8,35 +8,12 @@ resource "helm_release" "main" {
   timeout    = 1200
 
   values = [<<EOF
-platform: aks
-
-imageCredentials:
-  create: false
-
-scannerUserSecret:
-  enable: true
-  secretName: scanner-user
-  userKey: user
-  passwordKey: password
-
-serviceAccount:
-  name: "${var.kubernetes_namespace}-sa"
-
-server:
-  serviceName: "aquaserver-console-svc"
-
-replicaCount: 2
-resources:
-  limits:
-    cpu: 2000m
-    memory: 1000Mi
-  requests:
-    cpu: 1000m
-    memory: 500Mi
-# Trying to make it possible for https://docs.renovatebot.com/modules/manager/helm-values/ to find the values
+testvalues
+#Trying to make it possible for https://docs.renovatebot.com/modules/manager/helm-values/ to find the values
 image: 
 #renovatebot depname=registry.aquasec.com/scanner
   tag: 6.5.22003
 
 EOF
   ]
+}
