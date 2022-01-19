@@ -8,6 +8,20 @@
     ]
 
   },
+  "regexManagers": [
+    {
+      "fileMatch": ["./helm\\.tf$"],
+      // Need to matchS
+      // image: 
+      //  repository: scanner
+      //  tag: 6.5.22003
+      //  registry: registry.aquasec.com 
+      "matchStrings": [
+        "renovatebot: depname=(?<depName>.*?)\n *tag: (?<currentValue>.*?)"
+      ],
+      "datasourceTemplate": "docker"
+    }
+  ],
   "packageRules": [
     {
       // Keep ansible haxorof.docker_ce galaxy to a version supporting centos7
