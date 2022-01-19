@@ -6,7 +6,11 @@
     "fileMatch": [
       "^.*/00galaxy.yaml$"
     ]
-
+  },
+  "ansible": {
+     "fileMatch": [
+       "^.*/host_vars.yaml$"
+     ]
   },
   "regexManagers": [
     {
