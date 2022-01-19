@@ -17,7 +17,7 @@
       //  tag: 6.5.22003
       //  registry: registry.aquasec.com 
       "matchStrings": [
-        "renovatebot: depname=(?<depName>.*?)\n *tag: (?<currentValue>.*?)"
+        "renovatebot: depname=(?<depName>.*?)\n\s*tag: (?<currentValue>.*?)"
       ],
       "datasourceTemplate": "docker"
     }
