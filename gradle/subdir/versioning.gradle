@@ -1,0 +1,18 @@
+// Global versions
+ext {
+
+
+    // External Dependencies
+
+    // Renouvate maven source dependencies, adding a small
+    // placeholder to get renovate to find the source from upstream
+    // that we want to use as "master". Using renovatem as a pattern
+    // for a maven source
+    
+    // renovatem depname=com.google.code.gson:gson
+    GSON_VERSION = "2.8.2"
+    // renovatem depname=com.h2database:h2
+    H2_DRIVER_VERSION = "1.4.199"
+    // renovatem depname=org.hamcrest:hamcrest
+    HAMCREST_VERSION = "2.1"
+}

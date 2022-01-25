@@ -24,7 +24,18 @@
         "renovatebot depname=(?<depName>.*?)\n *tag: (?<currentValue>.*?)\n"
       ],
       "datasourceTemplate": "docker"
+    },
+    {
+      "fileMatch": ["./versioning\\.gradle$"],
+      // Need to matchS
+      // renovatem depname=com.google.code.gson:gson
+      // GSON_VERSION = "2.8.2"
+      "matchStrings": [
+        "renovatem depname=(?<depName>.*?)\n *.*?_VERSION = (?<currentValue>.*?)\n"
+      ],
+      "datasourceTemplate": "maven"
     }
+
   ],
   "packageRules": [
     {
