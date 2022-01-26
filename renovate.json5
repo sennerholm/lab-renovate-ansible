@@ -43,7 +43,7 @@
       "matchStrings": [
         "renovategr depname=(?<depName>.*?)\n *ref=(?<currentValue>.*?)\n"
       ],
-      "datasourceTemplate": "github-release"
+      "datasourceTemplate": "github-releases"
     }
   ],
   "packageRules": [
