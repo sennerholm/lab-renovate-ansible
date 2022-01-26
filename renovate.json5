@@ -38,7 +38,7 @@
     {
        "fileMatch": ["ipeline\\.yaml$"],
        "matchStrings": [
-        "renovategr depname=(?<depName>.*?)\n *ref=\"(?<currentValue>.*?)\"\n"
+        "renovategr depname=(?<depName>.*?)\n *ref=(?<currentValue>.*?)\n"
       ],
     // # renovategr depname=github.com/actions/virtual-environments.git
     // ref=releases/win22/20220116
