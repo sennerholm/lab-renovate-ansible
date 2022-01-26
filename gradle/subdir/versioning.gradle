@@ -14,5 +14,5 @@ ext {
     // renovatem depname=com.h2database:h2
     H2_DRIVER_VERSION = "1.4.199"
     // renovatem depname=org.hamcrest:hamcrest
-    HAMCREST_VERSION = "2.1"
+    HAMCREST_VERSION = "2.2"
 }
