@@ -1,0 +1,12 @@
+  steps:
+  - script: |
+      git clone https://github.com/actions/virtual-environments.git
+      cd virtual-environments
+      # Add renovate notification for changing
+      # renovategr depname=github.com/actions/virtual-environments.git
+      ref=releases/win22/20220116
+      git checkout ${ref}
+
+      // Need to matchS
+      // renovatem depname=com.google.code.gson:gson
+      // GSON_VERSION = "2.8.2"
