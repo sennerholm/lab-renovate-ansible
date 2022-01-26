@@ -37,13 +37,13 @@
       "datasourceTemplate": "maven"
     },
     {
-       "fileMatch": ["ipeline\\.yaml$"],
-       "matchStrings": [
+      "fileMatch": ["ipeline\\.yaml$"],
+      // # renovategr depname=github.com/actions/virtual-environments.git
+      // ref=releases/win22/20220116
+      "matchStrings": [
         "renovategr depname=(?<depName>.*?)\n *ref=(?<currentValue>.*?)\n"
       ],
-    // # renovategr depname=github.com/actions/virtual-environments.git
-    // ref=releases/win22/20220116
-      "datasourceTemplate": "gitref"
+      "datasourceTemplate": "github-tags"
     }
   ],
   "packageRules": [

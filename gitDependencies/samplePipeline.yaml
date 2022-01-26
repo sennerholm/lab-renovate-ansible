@@ -3,7 +3,7 @@
       git clone https://github.com/actions/virtual-environments.git
       cd virtual-environments
       # Add renovate notification for changing
-      # renovategr depname=github.com/actions/virtual-environments.git
+      # renovategr depname=actions/virtual-environments
       ref=releases/win22/20211219
       git checkout ${ref}
 
