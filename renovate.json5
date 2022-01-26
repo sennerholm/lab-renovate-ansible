@@ -1,5 +1,6 @@
 {
   "enabled": true,
+  "extends": ["config:base"],
   "ansible-galaxy": {
     "enabled": true,
     // Add support for 00galaxy.yaml file
