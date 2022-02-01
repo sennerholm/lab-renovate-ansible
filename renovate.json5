@@ -34,7 +34,7 @@
       "matchStrings": [
         "renovatek\n *default: \"(?<currentValue>.*?)\"\n"
       ],
-      "depName": "https://github.com/sennerholm/renovate-source-aks.git"
+      "depName": "https://github.com/sennerholm/renovate-source-aks.git",
       "datasourceTemplate": "gitbranch"
     },
     {
