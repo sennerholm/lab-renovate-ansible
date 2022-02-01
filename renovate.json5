@@ -35,7 +35,7 @@
         "renovatek\n *default = \"(?<currentValue>.*?)\"\n"
       ],
       "depNameTemplate": "https://github.com/sennerholm/renovate-source-aks.git",
-      "datasourceTemplate": "gitbranch"
+      "datasourceTemplate": "git-refs"
     },
     {
       "fileMatch": ["./versioning\\.gradle$"],
