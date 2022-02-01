@@ -27,6 +27,17 @@
       "datasourceTemplate": "docker"
     },
     {
+      "fileMatch": ["./variables\\.tf$"],
+      // Need to matchS
+      // # renovatek 
+      // default = "1.20.13"
+      "matchStrings": [
+        "renovatek\n *default: \"(?<currentValue>.*?)\"\n"
+      ],
+      "depName": "https://github.com/sennerholm/renovate-source-aks.git"
+      "datasourceTemplate": "gitbranch"
+    },
+    {
       "fileMatch": ["./versioning\\.gradle$"],
       // Need to matchS
       // renovatem depname=com.google.code.gson:gson
