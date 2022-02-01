@@ -34,7 +34,8 @@
       "matchStrings": [
         "renovatek\n *default = \"(?<currentValue>.*?)\"\n"
       ],
-      "depNameTemplate": "https://github.com/sennerholm/renovate-source-aks.git",
+      "lookupNameTemplate": "https://github.com/sennerholm/renovate-source-aks.git",
+      "depNameTemplate": "AzureKubernetesVersion",
       "datasourceTemplate": "git-refs"
     },
     {
