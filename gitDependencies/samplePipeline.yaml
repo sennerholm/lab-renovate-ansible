@@ -4,7 +4,7 @@
       cd virtual-environments
       # Add renovate notification for changing
       # renovategr depname=actions/virtual-environments
-      ref=win22/20211219.1
+      ref=win22/20220316.1
       git checkout ${ref}
 
       // Need to matchS
