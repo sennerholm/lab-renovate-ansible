@@ -1,7 +1,7 @@
 ---
 containers:
   - name: synthetics-check-runner
-    image: 'datadog/synthetics-private-location-worker:1.18.1@sha256:d2587654bd742303f08134e773b9e96ef71e6ffb486dab644e927daefff85664'
+    image: 'datadog/synthetics-private-location-worker:1.24.0@sha256:4322a38d6a3b968dba01ededd181def47e175c3872a27be25b2d829bdef12efb'
     pull: yes
     networks:
       - name: "monitoring"
