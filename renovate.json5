@@ -36,7 +36,6 @@
       ],
       "lookupNameTemplate": "https://github.com/sennerholm/renovate-source-aks.git",
       "depNameTemplate": "AzureKubernetesVersion",
-      "versioning": "regex:^(?<compatibility>.*)/?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)?$",
       "datasourceTemplate": "git-tags"
     },
     {
@@ -72,6 +71,10 @@
       "matchDatasources": ["github-releases"],
       "matchPackageNames": ["actions/virtual-environments"],
       "versioning": "regex:^(?<compatibility>.*)/(?<major>\\d+)\\.(?<minor>\\d+)$"
+    },
+    { // The releases have strange "versioning"
+      "matchDatasources": ["git-tags],
+      "versioning": "regex:^(?<compatibility>.*)/?(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)?$"
     }
   ]
 }
