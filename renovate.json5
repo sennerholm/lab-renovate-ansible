@@ -36,7 +36,7 @@
       ],
       "lookupNameTemplate": "https://github.com/sennerholm/renovate-source-aks.git",
       "depNameTemplate": "AzureKubernetesVersion",
-      "datasourceTemplate": "git-refs"
+      "datasourceTemplate": "git-tags"
     },
     {
       "fileMatch": ["./versioning\\.gradle$"],
