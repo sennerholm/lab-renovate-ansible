@@ -10,7 +10,7 @@ ext {
     // for a maven source
     
     // renovatem depname=com.google.code.gson:gson
-    GSON_VERSION = "2.8.2"
+    GSON_VERSION = "2.10.1"
     // renovatem depname=com.h2database:h2
     H2_DRIVER_VERSION = "1.4.199"
     // renovatem depname=org.hamcrest:hamcrest
