@@ -3,7 +3,7 @@ resource "helm_release" "main" {
   name       = lower(var.component)
   repository = "https://helm.aquasec.com"
   chart      = "scanner"
-  version    = "6.5.3"
+  version    = "2022.4.6"
   namespace  = var.kubernetes_namespace
   timeout    = 1200
 
