@@ -12,7 +12,7 @@ ext {
     // renovatem depname=com.google.code.gson:gson
     GSON_VERSION = "2.8.2"
     // renovatem depname=com.h2database:h2
-    H2_DRIVER_VERSION = "1.4.199"
+    H2_DRIVER_VERSION = "1.4.200"
     // renovatem depname=org.hamcrest:hamcrest
     HAMCREST_VERSION = "2.1"
 }
